@@ -1,0 +1,27 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "testing api with javascript via nodejs and expressjs",
+  "keywords": [
+    "api",
+    "test",
+    "nodejs",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Cody Browning",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env main.ts"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
