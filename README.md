@@ -8,7 +8,8 @@ Specifically to satisfy two goals:
 1) Devry University's Module 7 from course SIS150 assignment
 2) Understanding some basics of GitHub commands
 
-### How to run?
+## How to
+### Run
 1) Ensure NodeJS installed on machine
 2) Ensure browser extention to allow modification of headers (or using API tool like Postman or APIDog)
 3) Clone repo to desired destination
@@ -23,7 +24,7 @@ Specifically to satisfy two goals:
     - you can test the misconfigured credentials or add the ones you had in your .env file
 10) Now request the routes in main.ts
 
-## How to run tests?
+### Test
 1) ensure the above is working
 2) ensure CLI is at root
 3) run in CLI: npm test
@@ -31,5 +32,5 @@ Specifically to satisfy two goals:
     - should have all passing tests
     - failed tests mean you did not install the dev dependancies
 
-### Where to now? 
+## Where to now? 
 I'll keep building on this since it's fun to me. I might add some random things to make API calls on and maybe start looking at a front end for it. Only time will tell! 
