@@ -15,7 +15,10 @@ app.use((req: Request, res: Response, next) => {
 })
 
 app.get('/', (req: Request, res: Response) => {
-    res.send(`Hello, ${req.headers.username}!`);
+    res.json({
+        statusCode: 200,
+        message: `Hello, ${req.headers.username}!`
+    });
 });
 
 app.get('/health', (req: Request, res: Response) => {
