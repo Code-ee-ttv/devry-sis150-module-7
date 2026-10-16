@@ -23,5 +23,13 @@ Specifically to satisfy two goals:
     - you can test the misconfigured credentials or add the ones you had in your .env file
 10) Now request the routes in main.ts
 
+## How to run tests?
+1) ensure the above is working
+2) ensure CLI is at root
+3) run in CLI: npm test
+4) results:
+    - should have all passing tests
+    - failed tests mean you did not install the dev dependancies
+
 ### Where to now? 
 I'll keep building on this since it's fun to me. I might add some random things to make API calls on and maybe start looking at a front end for it. Only time will tell! 
